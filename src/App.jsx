@@ -90,7 +90,7 @@ function Hero() {
           <Reveal as="a" className="button button--primary" href="#projects" delay={600} y={22}>View my work <ArrowUpRight /></Reveal>
           <Reveal as="a" className="button button--ghost" href="#contact" delay={700} y={22}>Let's connect</Reveal>
         </div>
-        <Reveal className="hero-meta" delay={820} y={14}><span>Based in Nigeria</span><span className="meta-line"></span><span>Building since 2024</span></Reveal>
+        <Reveal className="hero-meta" delay={820} y={14}><span>Based in Nigeria</span><span className="meta-line"></span><span>Building since 2023</span></Reveal>
       </div>
       <div className="hero-visual">
         <Reveal delay={420} y={64} scale={0.94} duration={1400}><CodeWindow /></Reveal>
@@ -112,7 +112,7 @@ function About() {
       <SectionHeading kicker="01 / About" title={<>A developer who likes to <em>build.</em></>} text="My work sits between thoughtful interfaces and the systems that make them useful." />
       <div className="about-grid">
         <div className="about-main">
-          <ScrollText className="large-copy">I started learning web development around May 2024. Since then, I've gone from building interfaces to working on applications with authentication, APIs, databases, third-party services, and deployment.</ScrollText>
+          <ScrollText className="large-copy">I started learning web development around May 2023. Since then, I've gone from building interfaces to working on applications with authentication, APIs, databases, third-party services, and deployment.</ScrollText>
           <Reveal as="p" y={26}>My primary focus is frontend development, especially React.js. But I also enjoy understanding what happens behind the interface — how data moves, how an API is structured, how authentication works, and how a product gets from a local machine to a deployed application.</Reveal>
         </div>
         <Stagger className="about-side" x={18} y={16} step={120} base={150}>
@@ -188,7 +188,7 @@ function Projects() {
 
 function Journey() {
   const steps = [
-    ['2024', 'Started web development', 'Began the journey into building for the web, learning the fundamentals and turning small ideas into working pages.'],
+    ['2023', 'Started web development', 'Began the journey into building for the web, learning the fundamentals and turning small ideas into working pages.'],
     ['2024 — 2025', 'From interfaces to applications', 'Progressively moved into React, backend development, databases, APIs, authentication and deployment.'],
     ['2025', 'Collaborative software work', 'Worked on collaborative software projects and contributed backend functionality while learning how to build and integrate features within a larger system.'],
     ['Present', 'Building with more intention', 'Focused on React, JavaScript, frontend engineering, backend integration and stronger software engineering fundamentals.'],
